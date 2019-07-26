@@ -17,6 +17,8 @@ def find_the_cheese(arr)
   arr.any? do |e|
     if cheese_types.include?(e)
        return e
+    else
+      nil
     end
   end
 end
